@@ -1,0 +1,35 @@
+/* resize container */
+.elementor-section.elementor-section-height-full{
+    height: auto;
+}
+.elementor-section.elementor-section-height-full>.elementor-container{
+    height: auto;
+}
+@media (min-width: 768px){
+    .elementor-section.elementor-section-height-full {
+        height: 100% !important;
+    }
+}
+.elementor-widget-container{
+    margin: auto !important;
+}
+
+/* no content image */
+.tea-empty img{
+    display: block;
+    margin: auto;
+}
+
+/* viewmake widget */
+.tea-empty-viewmake{
+    background-color: #d6d6d6;
+    height: 600px;
+}
+.tea-empty-viewmake img{
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+#tea-tour-container iframe {
+    pointer-events: all !important;
+}
